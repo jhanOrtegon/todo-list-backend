@@ -1,4 +1,4 @@
-📝 Todo List Backend
+# 📝 Todo List Backend
 
 Proyecto base para aplicaciones **serverless** con **NestJS**, desplegadas en **AWS Lambda**, usando **Prisma ORM** con **MySQL**, autenticación con **JWT** y empaquetado con **Serverless Framework**. Incluye soporte para **Docker** y gestión con **Yarn**.
 
