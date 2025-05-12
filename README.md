@@ -1,17 +1,14 @@
 # 📝 Todo List Backend
 
-Proyecto base para aplicaciones **serverless** con **NestJS**, desplegadas en **AWS Lambda**, usando **Prisma ORM** con **MySQL**, autenticación con **JWT** y empaquetado con **Serverless Framework**. Incluye soporte para **Docker** y gestión con **Yarn**.
-
+Aplicación backend para gestión de tareas, construida con **NestJS** y **Prisma ORM**, diseñada para ser modular, escalable y lista para producción. Utiliza **MySQL** como base de datos y está preparada para ejecución local mediante **Docker**, Incorpora autenticación segura con **JWT** y está organizada por dominios para facilitar el mantenimiento y la evolución del sistema.
 ---
 
 ## 🚀 Tecnologías
 
-- [NestJS](https://nestjs.com/)
-- [AWS Lambda](https://aws.amazon.com/lambda/)
+- [NestJS](https://nestjs.com/
 - [Prisma ORM](https://www.prisma.io/)
 - [MySQL](https://www.mysql.com/)
 - [JWT Authentication](https://jwt.io/)
-- [Serverless Framework](https://www.serverless.com/)
 - [Yarn](https://yarnpkg.com/)
 - [Docker](https://www.docker.com/)
 
@@ -89,5 +86,4 @@ src/
 ├── user/           → Controlador básico de usuario
 ├── prisma/         → Servicio de acceso a Prisma
 ├── main.ts         → Arranque local
-└── main.lambda.ts  → Handler para AWS Lambda
 ```
